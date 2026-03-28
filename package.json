@@ -1,0 +1,22 @@
+{
+  "name": "backendproject",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "udemy",
+    "course",
+    "backend",
+    "api",
+    "creation"
+  ],
+  "author": "Naman",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}
