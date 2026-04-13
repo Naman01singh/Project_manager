@@ -9,5 +9,5 @@ router.route("/register").post(userRegisterValidator(), validate, registerUser);
 router.route("/login").post(userLoginValidator(), validate, login);
 
 //secure routes
-router.route("/logout").post(verifyJWT,logoutUser);
+router.route("/logout").post(verifyJWT,);
 export default router;
