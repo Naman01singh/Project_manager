@@ -42,7 +42,7 @@ const userLoginValidator =()=>{
     ]
 }
 const userChangeCurrentPasswordValidator =()=>{
-     return [
+    return [
         body("oldPassword").notEmpty().withMessage("Old password is required")
         .isLength({min:6})
         .withMessage("Old password must be at least 6 characters long"),
@@ -50,7 +50,7 @@ const userChangeCurrentPasswordValidator =()=>{
         .withMessage("New password is required")
         .isLength({min:6})
         .withMessage("New password must be at least 6 characters long"),
-     ]
+    ]
 }
 const userForgotPasswordValidator =()=>{
     return [
